@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372593291986EAC800E9962F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372593281986EAC800E9962F /* Foundation.framework */; };
+		3725932B1986EAC800E9962F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3725932A1986EAC800E9962F /* CoreGraphics.framework */; };
+		3725932D1986EAC800E9962F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3725932C1986EAC800E9962F /* UIKit.framework */; };
+		372593331986EAC800E9962F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 372593311986EAC800E9962F /* InfoPlist.strings */; };
+		372593351986EAC800E9962F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372593341986EAC800E9962F /* main.m */; };
+		372593391986EAC800E9962F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 372593381986EAC800E9962F /* AppDelegate.m */; };
+		3725933C1986EAC800E9962F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3725933A1986EAC800E9962F /* Main.storyboard */; };
+		3725933F1986EAC800E9962F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725933E1986EAC800E9962F /* ViewController.m */; };
+		372593411986EAC800E9962F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372593401986EAC800E9962F /* Images.xcassets */; };
+		372593481986EAC800E9962F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372593471986EAC800E9962F /* XCTest.framework */; };
+		372593491986EAC800E9962F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372593281986EAC800E9962F /* Foundation.framework */; };
+		3725934A1986EAC800E9962F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3725932C1986EAC800E9962F /* UIKit.framework */; };
+		372593521986EAC800E9962F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 372593501986EAC800E9962F /* InfoPlist.strings */; };
+		372593541986EAC800E9962F /* MapboxLagDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372593531986EAC800E9962F /* MapboxLagDemoTests.m */; };
+		3725935F198956D000E9962F /* ColourTileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725935E198956D000E9962F /* ColourTileSource.m */; };
+		B5F8D53C744B4214854D6EB0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D73102F2AAE34838801496E3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3725934B1986EAC800E9962F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3725931D1986EAC800E9962F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372593241986EAC800E9962F;
+			remoteInfo = MapboxLagDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193001A5A13246F9B86F7C91 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		372593251986EAC800E9962F /* MapboxLagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapboxLagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372593281986EAC800E9962F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3725932A1986EAC800E9962F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3725932C1986EAC800E9962F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		372593301986EAC800E9962F /* MapboxLagDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapboxLagDemo-Info.plist"; sourceTree = "<group>"; };
+		372593321986EAC800E9962F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		372593341986EAC800E9962F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		372593361986EAC800E9962F /* MapboxLagDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapboxLagDemo-Prefix.pch"; sourceTree = "<group>"; };
+		372593371986EAC800E9962F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		372593381986EAC800E9962F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3725933B1986EAC800E9962F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3725933D1986EAC800E9962F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3725933E1986EAC800E9962F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		372593401986EAC800E9962F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		372593461986EAC800E9962F /* MapboxLagDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapboxLagDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		372593471986EAC800E9962F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3725934F1986EAC800E9962F /* MapboxLagDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapboxLagDemoTests-Info.plist"; sourceTree = "<group>"; };
+		372593511986EAC800E9962F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		372593531986EAC800E9962F /* MapboxLagDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapboxLagDemoTests.m; sourceTree = "<group>"; };
+		3725935D198956D000E9962F /* ColourTileSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourTileSource.h; sourceTree = "<group>"; };
+		3725935E198956D000E9962F /* ColourTileSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColourTileSource.m; sourceTree = "<group>"; };
+		D73102F2AAE34838801496E3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372593221986EAC800E9962F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3725932B1986EAC800E9962F /* CoreGraphics.framework in Frameworks */,
+				3725932D1986EAC800E9962F /* UIKit.framework in Frameworks */,
+				372593291986EAC800E9962F /* Foundation.framework in Frameworks */,
+				B5F8D53C744B4214854D6EB0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372593431986EAC800E9962F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372593481986EAC800E9962F /* XCTest.framework in Frameworks */,
+				3725934A1986EAC800E9962F /* UIKit.framework in Frameworks */,
+				372593491986EAC800E9962F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3725931C1986EAC800E9962F = {
+			isa = PBXGroup;
+			children = (
+				3725932E1986EAC800E9962F /* MapboxLagDemo */,
+				3725934D1986EAC800E9962F /* MapboxLagDemoTests */,
+				372593271986EAC800E9962F /* Frameworks */,
+				372593261986EAC800E9962F /* Products */,
+				193001A5A13246F9B86F7C91 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		372593261986EAC800E9962F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372593251986EAC800E9962F /* MapboxLagDemo.app */,
+				372593461986EAC800E9962F /* MapboxLagDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372593271986EAC800E9962F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372593281986EAC800E9962F /* Foundation.framework */,
+				3725932A1986EAC800E9962F /* CoreGraphics.framework */,
+				3725932C1986EAC800E9962F /* UIKit.framework */,
+				372593471986EAC800E9962F /* XCTest.framework */,
+				D73102F2AAE34838801496E3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3725932E1986EAC800E9962F /* MapboxLagDemo */ = {
+			isa = PBXGroup;
+			children = (
+				372593371986EAC800E9962F /* AppDelegate.h */,
+				372593381986EAC800E9962F /* AppDelegate.m */,
+				3725933A1986EAC800E9962F /* Main.storyboard */,
+				3725933D1986EAC800E9962F /* ViewController.h */,
+				3725933E1986EAC800E9962F /* ViewController.m */,
+				372593401986EAC800E9962F /* Images.xcassets */,
+				3725932F1986EAC800E9962F /* Supporting Files */,
+				3725935D198956D000E9962F /* ColourTileSource.h */,
+				3725935E198956D000E9962F /* ColourTileSource.m */,
+			);
+			path = MapboxLagDemo;
+			sourceTree = "<group>";
+		};
+		3725932F1986EAC800E9962F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				372593301986EAC800E9962F /* MapboxLagDemo-Info.plist */,
+				372593311986EAC800E9962F /* InfoPlist.strings */,
+				372593341986EAC800E9962F /* main.m */,
+				372593361986EAC800E9962F /* MapboxLagDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3725934D1986EAC800E9962F /* MapboxLagDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				372593531986EAC800E9962F /* MapboxLagDemoTests.m */,
+				3725934E1986EAC800E9962F /* Supporting Files */,
+			);
+			path = MapboxLagDemoTests;
+			sourceTree = "<group>";
+		};
+		3725934E1986EAC800E9962F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3725934F1986EAC800E9962F /* MapboxLagDemoTests-Info.plist */,
+				372593501986EAC800E9962F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372593241986EAC800E9962F /* MapboxLagDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372593571986EAC800E9962F /* Build configuration list for PBXNativeTarget "MapboxLagDemo" */;
+			buildPhases = (
+				1DE745AD593C40F6A206E19E /* Check Pods Manifest.lock */,
+				372593211986EAC800E9962F /* Sources */,
+				372593221986EAC800E9962F /* Frameworks */,
+				372593231986EAC800E9962F /* Resources */,
+				C9017C6124E9463FADA6B5F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapboxLagDemo;
+			productName = MapboxLagDemo;
+			productReference = 372593251986EAC800E9962F /* MapboxLagDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		372593451986EAC800E9962F /* MapboxLagDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3725935A1986EAC800E9962F /* Build configuration list for PBXNativeTarget "MapboxLagDemoTests" */;
+			buildPhases = (
+				372593421986EAC800E9962F /* Sources */,
+				372593431986EAC800E9962F /* Frameworks */,
+				372593441986EAC800E9962F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3725934C1986EAC800E9962F /* PBXTargetDependency */,
+			);
+			name = MapboxLagDemoTests;
+			productName = MapboxLagDemoTests;
+			productReference = 372593461986EAC800E9962F /* MapboxLagDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3725931D1986EAC800E9962F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Lichty";
+				TargetAttributes = {
+					372593451986EAC800E9962F = {
+						TestTargetID = 372593241986EAC800E9962F;
+					};
+				};
+			};
+			buildConfigurationList = 372593201986EAC800E9962F /* Build configuration list for PBXProject "MapboxLagDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3725931C1986EAC800E9962F;
+			productRefGroup = 372593261986EAC800E9962F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372593241986EAC800E9962F /* MapboxLagDemo */,
+				372593451986EAC800E9962F /* MapboxLagDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372593231986EAC800E9962F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372593411986EAC800E9962F /* Images.xcassets in Resources */,
+				372593331986EAC800E9962F /* InfoPlist.strings in Resources */,
+				3725933C1986EAC800E9962F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372593441986EAC800E9962F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372593521986EAC800E9962F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE745AD593C40F6A206E19E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9017C6124E9463FADA6B5F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372593211986EAC800E9962F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3725935F198956D000E9962F /* ColourTileSource.m in Sources */,
+				3725933F1986EAC800E9962F /* ViewController.m in Sources */,
+				372593391986EAC800E9962F /* AppDelegate.m in Sources */,
+				372593351986EAC800E9962F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372593421986EAC800E9962F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372593541986EAC800E9962F /* MapboxLagDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3725934C1986EAC800E9962F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372593241986EAC800E9962F /* MapboxLagDemo */;
+			targetProxy = 3725934B1986EAC800E9962F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		372593311986EAC800E9962F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372593321986EAC800E9962F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3725933A1986EAC800E9962F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3725933B1986EAC800E9962F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		372593501986EAC800E9962F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372593511986EAC800E9962F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		372593551986EAC800E9962F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		372593561986EAC800E9962F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372593581986EAC800E9962F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193001A5A13246F9B86F7C91 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapboxLagDemo/MapboxLagDemo-Prefix.pch";
+				INFOPLIST_FILE = "MapboxLagDemo/MapboxLagDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		372593591986EAC800E9962F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193001A5A13246F9B86F7C91 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapboxLagDemo/MapboxLagDemo-Prefix.pch";
+				INFOPLIST_FILE = "MapboxLagDemo/MapboxLagDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3725935B1986EAC800E9962F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapboxLagDemo.app/MapboxLagDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapboxLagDemo/MapboxLagDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MapboxLagDemoTests/MapboxLagDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3725935C1986EAC800E9962F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapboxLagDemo.app/MapboxLagDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapboxLagDemo/MapboxLagDemo-Prefix.pch";
+				INFOPLIST_FILE = "MapboxLagDemoTests/MapboxLagDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372593201986EAC800E9962F /* Build configuration list for PBXProject "MapboxLagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372593551986EAC800E9962F /* Debug */,
+				372593561986EAC800E9962F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372593571986EAC800E9962F /* Build configuration list for PBXNativeTarget "MapboxLagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372593581986EAC800E9962F /* Debug */,
+				372593591986EAC800E9962F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3725935A1986EAC800E9962F /* Build configuration list for PBXNativeTarget "MapboxLagDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3725935B1986EAC800E9962F /* Debug */,
+				3725935C1986EAC800E9962F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3725931D1986EAC800E9962F /* Project object */;
+}

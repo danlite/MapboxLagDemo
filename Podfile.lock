@@ -1,0 +1,30 @@
+PODS:
+  - FMDB (2.0):
+    - FMDB/standard
+  - FMDB/common (2.0)
+  - FMDB/standard (2.0):
+    - FMDB/common
+  - GRMustache (6.8.3):
+    - JRSwizzle (~> 1.0)
+  - JRSwizzle (1.0)
+  - Mapbox (1.2.0):
+    - FMDB (= 2.0)
+    - GRMustache (= 6.8.3)
+    - SMCalloutView (= 2.0)
+  - SMCalloutView (2.0)
+
+DEPENDENCIES:
+  - Mapbox (from `https://raw.githubusercontent.com/DanLite/mapbox-ios-sdk/1.2.0-lag-demo/Mapbox.podspec`)
+
+EXTERNAL SOURCES:
+  Mapbox:
+    :podspec: https://raw.githubusercontent.com/DanLite/mapbox-ios-sdk/1.2.0-lag-demo/Mapbox.podspec
+
+SPEC CHECKSUMS:
+  FMDB: 51325701b48cc929ff967fa3047ebc893e798a23
+  GRMustache: ab96109b7ba4b9568425bea40d6cd2cdc7582b6c
+  JRSwizzle: 30da7a2c539a4ebf954b16d15f6dd8221c9f6fa5
+  Mapbox: 583855153d807c42a234a92037ecef4713a48ced
+  SMCalloutView: c1906604d47c058400ade5c9d52ab98aa77b7e76
+
+COCOAPODS: 0.33.1
