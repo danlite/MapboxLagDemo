@@ -58,6 +58,8 @@
 		372593531986EAC800E9962F /* MapboxLagDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapboxLagDemoTests.m; sourceTree = "<group>"; };
 		3725935D198956D000E9962F /* ColourTileSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourTileSource.h; sourceTree = "<group>"; };
 		3725935E198956D000E9962F /* ColourTileSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColourTileSource.m; sourceTree = "<group>"; };
+		372593611989713300E9962F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		37259362198971BE00E9962F /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		D73102F2AAE34838801496E3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 		3725931C1986EAC800E9962F = {
 			isa = PBXGroup;
 			children = (
+				372593601989711B00E9962F /* Supporting Files */,
 				3725932E1986EAC800E9962F /* MapboxLagDemo */,
 				3725934D1986EAC800E9962F /* MapboxLagDemoTests */,
 				372593271986EAC800E9962F /* Frameworks */,
@@ -159,6 +162,15 @@
 			children = (
 				3725934F1986EAC800E9962F /* MapboxLagDemoTests-Info.plist */,
 				372593501986EAC800E9962F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		372593601989711B00E9962F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				372593611989713300E9962F /* README.md */,
+				37259362198971BE00E9962F /* screenshot.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
